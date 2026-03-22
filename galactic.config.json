@@ -1,0 +1,16 @@
+{
+  "type": "worker",
+  "name": "vantage",
+  "appDir": ".",
+  "build": "pnpm build",
+  "staging": {
+    "worker": {
+      "env": "staging"
+    }
+  },
+  "production": {
+    "worker": {
+      "env": "production"
+    }
+  }
+}
